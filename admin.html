@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin Panel - Qazi Mobile</title>
+<style>
+body{font-family:Arial;padding:20px;background:#f5f5f5}
+.card{background:white;padding:20px;border-radius:10px;margin-bottom:20px}
+input,button{padding:10px;margin:5px;width:100%}
+button{background:#1A237E;color:white;border:none;border-radius:5px}
+</style>
+</head>
+<body>
+<h2>Admin Panel - qazi.mobile.786</h2>
+
+<div class="card">
+<h3>Upload Product</h3>
+<input id="name" placeholder="Product Name">
+<input id="price" placeholder="Price">
+<input type="file" id="image">
+<button onclick="upload()">Upload Product</button>
+</div>
+
+<script>
+function upload(){
+alert('Product uploaded. Upload to main site gallery.')
+}
+</script>
+
+</body>
+</html>
